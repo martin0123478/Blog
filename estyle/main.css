@@ -247,3 +247,19 @@ footer p{
 /* .contact-left{
   padding-left: 10px;
 } */
+
+.perfil-info-container{
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  background-color: #ccd1d9;
+}
+
+.img-container {
+  grid-column: 1;
+  width: 100%;
+}
+
+.img-container-perfil img{
+  width: 500px;
+  padding: 20px 20px;
+}
